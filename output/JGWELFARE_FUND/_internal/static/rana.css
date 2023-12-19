@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: BanglaFontNikosh2;
+  src: url("../banglafont/nikosh2.ttf");
+}
+@font-face {
+  font-family: BanglaFontNikosh;
+  src: url("../banglafont/Nikosh.ttf");
+}
+@font-face {
+  font-family: BanglaFontSejuti;
+  src: url("../banglafont/Fazlay Sejuti Unicode.ttf");
+}
+@font-face {
+  font-family: BanglaFontEid;
+  src: url("../banglafont/Eid_Mubarak.ttf");
+}
+@font-face {
+  font-family: BanglaFontEkushey;
+  src: url("../banglafont/Ekushey_Belycon_06-09-2018.ttf");
+}
+@font-face {
+  font-family: BanglaFontKero;
+  src: url("../banglafont/KEERO___.ttf");
+}
+@font-face {
+  font-family: BanglaFontPadmo;
+  src: url("../banglafont/Padmo UNICODE.ttf");
+}
+@font-face {
+  font-family: BanglaFontMadon;
+  src: url("../banglafont/Li MadanMohan Unicode.ttf");
+}
+
+.b_fontNikosh {
+  font-family: BanglaFontNikosh;
+}
+.b_fontNikosh2 {
+  font-family: BanglaFontNikosh2 "Courier New", monospace;
+}
+.b_fontSejuti {
+  font-family: BanglaFontSejuti;
+}
+.b_fonteid {
+  font-family: BanglaFontEid;
+}
+.b_fontekush {
+  font-family: BanglaFontEkushey;
+}
+.b_fontkero {
+  font-family: BanglaFontKero;
+}
+.b_fontpadmo {
+  font-family: BanglaFontPadmo;
+}
+.b_fontmadon {
+  font-family: BanglaFontMadon;
+}
+
+div {
+  font-family: "BanglaFontNikosh2", Times, serif;
+}
+
+h {
+  font-family: "BanglaFontNikosh2", "Courier New", monospace;
+}
+
+p {
+  font-family: "BanglaFontNikosh2", Helvetica, sans-serif;
+}
+
+td {
+  font-family: "b_fontpadmo", Helvetica, sans-serif;
+}
+th {
+  font-family: "b_fontpadmo", Helvetica, sans-serif;
+}
+table {
+  font-family: "b_fontpadmo", Helvetica, sans-serif;
+}
+
+
+
+
+
