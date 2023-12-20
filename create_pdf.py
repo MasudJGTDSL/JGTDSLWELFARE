@@ -26,27 +26,6 @@ def query_database():
         """
     c_all.execute(query_payment_all)
     payment_all_records = c_all.fetchall()
-    # single_c = conn.cursor()
-    # single_c.execute(
-    #     f"""SELECT * FROM (SELECT a.JGID, a.EmployeeName, a.Designation, a.BasicPay, a.AmountToPay, a.PRLDate, a.MobileNo,
-    #     b.id, b.PaidAmount, b.PaymentDate, b.Remarks
-    #     FROM Employee a LEFT JOIN Payment b on a.JGID = b.JGID) c WHERE JGID = '{int(jgid)}'"""
-    # )
-    # single_record = single_c.fetchall()
-
-    # payment_c = conn.cursor()
-    # payment_c.execute(
-    #     """SELECT SUM(a.AmountToPay) as TotalAmountToPay, SUM(b.PaidAmount) as TotalPaidAmount
-    #     FROM Employee a LEFT JOIN Payment b on a.JGID = b.JGID
-    #     """
-    # )
-    # payment_remaining = payment_c.fetchall()
-
-    # single_c_summary = conn.cursor()
-
-    # single_c_summary.execute(f"{query_payment_pending} WHERE a.JGID ={int(jgid)} GROUP BY a.JGID")
-    # single_record_summary = single_c_summary.fetchone()
-
     conn.commit()
     conn.close()
     return {
